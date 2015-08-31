@@ -1,0 +1,26 @@
+{
+  "name": "momentum-todomvc",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "momentumjs": "*",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0"
+  },
+  "scripts": {
+    "momentumjs": "momentumjs"
+  },
+  "author": "Sebastian Otto",
+  "license": "MIT",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "momentumjs": "npm:momentumjs@0.1.11"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.21",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.0.0"
+    }
+  }
+}

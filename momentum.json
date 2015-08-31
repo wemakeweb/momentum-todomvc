@@ -1,0 +1,12 @@
+{
+	"version": "0.1.0",
+	"database": {
+		"adapter": "RethinkAdapter",
+		"tableName": "dev"
+	},
+	
+	"http": {
+		"port": 8000,
+		"staticFolder": ["css", "vendor"]
+	}
+}
